@@ -13,14 +13,12 @@ CheckFun(){
     do
         read n
         if [[ $n -lt $a ]];then
-            echo "low"
-            read n
+            echo "too low"
         elif [[ $n -gt $a ]];then
-            echo "high"
-            read n
+            echo "too high"
         fi
     done
-    echo "right"
+    echo "congratulation~! You find it!"
 }
 
 CheckFun
