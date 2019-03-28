@@ -18,7 +18,7 @@ CheckFun(){
             echo "too high"
         fi
     done
-    echo "congratulation~! You find it!"
+    echo "congratulation~! You've found it!"
 }
 
 CheckFun
